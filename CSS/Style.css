@@ -5,7 +5,7 @@ font-family: Century Gethic;
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Accounting.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(consultancy.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #fff;
+    background-color: green;
     color: #000;
 }
 
@@ -38,12 +38,16 @@ ul li.active a{
      background-color: #fff;
     color: #000;
 }
-
-.logo img{
+ul li{
     float: left;
-    width: 150px;
-    height: auto;
+    width: 200px
+    height: 40px
+    background-color: black;\
+    text-align: center;
+    font-size: 20px
 }
+
+
 
 .main{
     max-width: 1200px;
@@ -54,7 +58,7 @@ ul li.active a{
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-43%,-45%);
 }
 
 .title h1{
@@ -64,7 +68,7 @@ ul li.active a{
 
 .button{
    position: absolute;
-    top: 64%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -81,3 +85,26 @@ ul li.active a{
     background-color: #fff;
     color: #000;
 }
+.Submenu{
+     display: none;
+
+}
+ul li:hover .Submenu{
+    display: block;
+    position: absolute;
+}
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse
+}
+th, td {
+    padding: 10px
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+

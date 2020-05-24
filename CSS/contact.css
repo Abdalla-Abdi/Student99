@@ -3,9 +3,8 @@
 padding: 0;
 font-family: Century Gethic;
 }
-header.Service{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(about.jpg);
+header.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(contact.jpg);
     height: 50vh;
     background-size: 100% 100%;
     background-position:center;
-  }

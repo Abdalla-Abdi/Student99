@@ -3,7 +3,10 @@
 
     <head>
         <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <style>
             table{
                 border: 2px solid balack;
@@ -21,27 +24,37 @@
 
     <body>
         <h1>Contacts</h1>
-        <table>
+        <table class="table table-dark" >
+            <!-- on rows -->
             <tr>
                 <th>Email</th>
                 <th>Location</th>
                 <th>Phone</th>
             </tr>
             <tr>
-                <td>abdallacade05@gmail.com</td>
-                <td>Mogadishu</td>
-                <td>+252616278822</td>
+                <td class="table-success">abdallacade05@gmail.com</td>
+                <td class="table-success" >Mogadishu</td>
+                <td class="table-success">+252616278822</td>
             </tr>
              <tr>
-                <td>abdallacade01@gmail.com</td>
-                <td>Hargeisa</td>
-                <td>+252682233774</td>
+                <td class="table-danger">abdallacade01@gmail.com</td>
+                <td class="table-danger">Hargeisa</td>
+                <td class="table-danger">+252682233774</td>
             </tr>
              <tr>
-                <td>abdallacade001@gmail.com</td>
-                <td>Kismaayo</td>
-                <td>+252617403320</td>
+                <td class="table-warning">abdallacade001@gmail.com</td>
+                <td class="table-warning">Kismaayo</td>
+                <td class="table-warning">+252617403320</td>
             </tr>
+            <div class="contact">
+            <div class="image-right">
+            <img src="contact.jpg"
+                 </div>
+            </div>
+
+        </table>
+        <table class="contact">
+
         </table>
 
         <header>
@@ -54,11 +67,8 @@
                 </ul>
 
             </div>
-
-
-
-
         </header>
+
     </body>
 
 </html>
